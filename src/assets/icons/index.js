@@ -12,6 +12,7 @@ import truckFast from './truck-fast.svg'
 import twitter from './twitter.svg'
 
 export {
+
     arrowRight,
     cheveronRight,
     chevronLeft,
@@ -24,4 +25,5 @@ export {
     star,
     truckFast,
     twitter
+
 }
