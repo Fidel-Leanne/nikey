@@ -4,7 +4,7 @@ import { hamburger } from '../assets/icons';
 import { navLinks } from '../constants';
 
 const NavLinks = ({ isMobile, closeMenu }) => (
-  <ul className={`flex ${isMobile ? 'flex-col items-center w-full bg-blue-800 transition-all duration-300 ease-in-out' : 'flex-1 justify-center items-center gap-16 hidden lg:flex'}`}>
+  <ul className={`flex ${isMobile ? 'flex-col items-center w-full transition-all duration-300 ease-in-out' : 'flex-1 justify-center items-center gap-16 hidden lg:flex'}`}>
     {navLinks.map((item) => (
       <li key={item.label} className={isMobile ? 'py-2' : ''}>
         <a 
@@ -46,7 +46,7 @@ const Nav = () => {
   }, []);
 
   return (
-    <header className='px-4 py-8 absolute z-10 w-full bg-blue-800/70'>
+    <header className='px-4 py-8 absolute z-10 w-full bg-purple-700/55'>
       <nav className='flex justify-between items-center max-w-container mx-auto relative'>
         <a href="/">
           <img 
