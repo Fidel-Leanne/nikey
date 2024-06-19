@@ -9,7 +9,7 @@ const NavLinks = ({ isMobile, closeMenu }) => (
       <li key={item.label} className={isMobile ? 'py-2' : ''}>
         <a 
           href={item.href}
-          className='font-montserrat leading-normal text-lg text-slate-300'
+          className='font-montserrat font-semibold leading-normal text-lg text-slate-300'
           onClick={closeMenu}
         >
           {item.label}
