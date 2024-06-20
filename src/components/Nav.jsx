@@ -16,7 +16,7 @@ const NavLinks = ({ isMobile, closeMenu }) => (
         </a>
       </li>
     ))}
-  </ul>
+  </ul> 
 );
 
 const Nav = () => {
