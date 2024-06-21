@@ -42,7 +42,7 @@ const App = () => (
       <Subscribers />
     </section>
 
-    <section className='bg-black padding-x padding-t pb-8'>
+    <section className='bg-gradient-to-r from-purple-500/70 via-purple-600/70 to-purple-700/55 animate-gradient padding-x padding-t pb-8'>
       <Footer />
     </section>
   </main>

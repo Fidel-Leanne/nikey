@@ -26,7 +26,10 @@ export default {
         "coral-red": "#FF6452",
         "slate-gray": "#6D6D6D",
         "pale-blue": "#F5F6FF",
-        "white-400": "rgba(255, 255, 255, 0.80)"
+        "white-400": "rgba(255, 255, 255, 0.80)",
+        'purple-500': '#a78bfa',
+        'purple-600': '#8b5cf6',
+        'purple-700': '#6d28d9',
       },
       boxShadow: {
         '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)'
@@ -37,8 +40,18 @@ export default {
       },
       screens: {
         "wide": "1440px"
-      }
+      },
+      keyframes: {
+        gradient: {
+          '0%, 100%': { backgroundPosition: '0% 50%' },
+          '50%': { backgroundPosition: '100% 50%' },
+        },
+      },
+      animation: {
+        gradient: 'gradient 15s ease infinite',
+      },
     },
   },
+  
   plugins: [],
 }
